@@ -6,11 +6,15 @@
   "repository": "https://github.com/youngtailors/bonoob.git",
   "author": "Young Tailors",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "db": "node scripts/db.js"
   },
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^6.2.0",
+    "knex": "^0.16.2",
     "koa": "^2.6.2",
+    "pg": "^7.7.1",
     "pino": "^5.10.1"
   }
 }
